@@ -1,0 +1,18 @@
+Type                                  Module                      Label             Process   
+----------------------------------------------------------------------------------------------
+edm::TriggerResults                   "TriggerResults"            ""                "SIM"     
+vector<int>                           "genParticles"              ""                "SIM"     
+vector<reco::GenParticle>             "genParticles"              ""                "SIM"     
+edm::TriggerResults                   "TriggerResults"            ""                "HLT"     
+EBDigiCollection                      "hltAlCaEtaEBRechitsToDigis"   "etaEBDigis"      "TEST"    
+EBDigiCollection                      "hltAlCaPi0EBRechitsToDigis"   "pi0EBDigis"      "TEST"    
+EEDigiCollection                      "hltAlCaEtaEERechitsToDigis"   "etaEEDigis"      "TEST"    
+EEDigiCollection                      "hltAlCaPi0EERechitsToDigis"   "pi0EEDigis"      "TEST"    
+edm::SortedCollection<EcalRecHit,edm::StrictWeakOrdering<EcalRecHit> >    "hltAlCaEtaEBUncalibrator"   "etaEcalRecHitsEB"   "TEST"    
+edm::SortedCollection<EcalRecHit,edm::StrictWeakOrdering<EcalRecHit> >    "hltAlCaEtaEEUncalibrator"   "etaEcalRecHitsEE"   "TEST"    
+edm::SortedCollection<EcalRecHit,edm::StrictWeakOrdering<EcalRecHit> >    "hltAlCaEtaRecHitsFilterEEonlyRegional"   "etaEcalRecHitsES"   "TEST"    
+edm::SortedCollection<EcalRecHit,edm::StrictWeakOrdering<EcalRecHit> >    "hltAlCaPi0EBUncalibrator"   "pi0EcalRecHitsEB"   "TEST"    
+edm::SortedCollection<EcalRecHit,edm::StrictWeakOrdering<EcalRecHit> >    "hltAlCaPi0EEUncalibrator"   "pi0EcalRecHitsEE"   "TEST"    
+edm::SortedCollection<EcalRecHit,edm::StrictWeakOrdering<EcalRecHit> >    "hltAlCaPi0RecHitsFilterEEonlyRegional"   "pi0EcalRecHitsES"   "TEST"    
+edm::TriggerResults                   "TriggerResults"            ""                "TEST"    
+
