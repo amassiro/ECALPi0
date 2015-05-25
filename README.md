@@ -24,9 +24,15 @@ Instructions:
     
     cmsRun fillepsilonplot_cfg.py inputFiles=file:/tmp/amassiro/outputALCAP0_6_1_N7w.root    outputFile=/tmp/amassiro/
 
+    cmsRun example.py \
+        inputFiles=root://eoscms//eos/cms/store/group/dpg_ecal/alca_ecalcalib/hardenbr/STREAM_OUTPUT/NEU_GUN_40bx25_WITH_SELECTION_NOL1/outputALCAP0_1000_1_0jE.root   \
+        outputFile=/tmp/amassiro/
+    
+    
 Pi0 code:
 
     https://github.com/ECALELFS/ECALpro
 
+    
     
     
