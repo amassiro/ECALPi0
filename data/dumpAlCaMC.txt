@@ -15,4 +15,3 @@ edm::SortedCollection<EcalRecHit,edm::StrictWeakOrdering<EcalRecHit> >    "hltAl
 edm::SortedCollection<EcalRecHit,edm::StrictWeakOrdering<EcalRecHit> >    "hltAlCaPi0EEUncalibrator"   "pi0EcalRecHitsEE"   "TEST"    
 edm::SortedCollection<EcalRecHit,edm::StrictWeakOrdering<EcalRecHit> >    "hltAlCaPi0RecHitsFilterEEonlyRegional"   "pi0EcalRecHitsES"   "TEST"    
 edm::TriggerResults                   "TriggerResults"            ""                "TEST"    
-
