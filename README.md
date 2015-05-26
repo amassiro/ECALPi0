@@ -40,7 +40,9 @@ Instructions:
         outputFile=/tmp/amassiro/
     
     
-    
+ 
+    git clone git@github.com:amassiro/ECALpro.git CalibCode
+ 
     
 Pi0 code:
 
