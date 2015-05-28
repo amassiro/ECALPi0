@@ -43,6 +43,7 @@ Instructions:
  
     git clone git@github.com:amassiro/ECALpro.git CalibCode
  
+    fork from Luca's repository
     
 Pi0 code:
 
